@@ -105,6 +105,24 @@ section{
     text-align: center;
 }
 
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portfolio-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portfolio-details h2{
+    color: white;
+}
+
 
 @media (max-width: 575.98px) {
     h1{
