@@ -20,6 +20,9 @@ p{
     margin-bottom: 0;
 }
 
+a:hover{
+    text-decoration: none;
+}
 
 section{
     padding: 120px 0;
@@ -95,12 +98,12 @@ section{
     color: white;
 }
 
-#portafolio p{
+.content-center p{
     color: rgb(70, 66, 66);
 }
 
 .content-center{
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto 60px auto;
     text-align: center;
 }
@@ -112,6 +115,12 @@ section{
     border-radius: 2px;
 }
 
+.portfolio-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
 .portfolio-details{
     position: absolute;
     bottom: 25px;
@@ -120,6 +129,10 @@ section{
 }
 
 .portfolio-details h2{
+    margin-bottom: 0px;
+}
+
+.portfolio-details a h2, .portfolio-details a p{
     color: white;
 }
 
