@@ -8,11 +8,21 @@ h1{
     line-height: 80px;
 }
 
+h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
 p{
     font-size: 18px;
     color: white;
     line-height: 1.8;
     margin-bottom: 0;
+}
+
+
+section{
+    padding: 120px 0;
 }
 
 .topmargin-xs{
@@ -83,6 +93,10 @@ p{
 
 #hero p{
     color: white;
+}
+
+#portafolio p{
+    color: black;
 }
 
 .content-center{
