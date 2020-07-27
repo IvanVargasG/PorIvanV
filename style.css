@@ -86,8 +86,8 @@ section{
 #hero{
     background-image: url("Imagenes/hacker-world.jpg");
     background-size: cover;
-    padding-top: 190px;
-    min-height: 700px;
+    padding-top: 250px;
+    min-height: 600px;
     color: blanchedalmond;
 }
 
