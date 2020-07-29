@@ -28,6 +28,10 @@ section{
     padding: 120px 0;
 }
 
+.bg-ligth-grey{
+    background-color: rgb(238, 235, 235);
+}
+
 .topmargin-xs{
     margin-top: 15px;
 }
@@ -89,7 +93,7 @@ section{
 #hero{
     background-image: url("Imagenes/hacker-world.jpg");
     background-size: cover;
-    padding-top: 250px;
+    padding-top: 200px;
     min-height: 600px;
     color: blanchedalmond;
 }
@@ -104,18 +108,19 @@ section{
 
 .content-center{
     max-width: 900px;
-    margin: 0 auto 60px auto;
+    margin: 0 auto 40px auto;
     text-align: center;
 }
 
 .portfolio-container{
     position: relative;
     overflow: hidden;
-    margin: 10px 0;
+    object-fit: cover;
+    margin: 10px 0px;
     border-radius: 2px;
 }
 
-.portfolio-container img{
+.portfolio-container img{  
     -moz-transition: all 0.8s;
     -webkit-transition: all 0.8s;
     transition: all 0.8s;
