@@ -155,6 +155,18 @@ section{
     color: black;
 }
 
+.member-container{
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-details{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 0px;
+    left: 2px;
+}
+
 
 @media (max-width: 575.98px) {
     h1{
