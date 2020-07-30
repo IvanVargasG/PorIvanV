@@ -24,6 +24,11 @@ a:hover{
     text-decoration: none;
 }
 
+a .iconos{
+    font-size: 20px;
+    color: white;
+}
+
 section{
     padding: 120px 0;
 }
@@ -58,9 +63,15 @@ section{
     border: 2px solid peachpuff;
 }
 
-.btn i{
+.btn{
     font-size: 14px;
     margin-left: 5px;
+}
+
+a .btnicon{
+    font-size: 20px;
+    margin-left: 5px;
+    color:black;
 }
 
 .navbar{
@@ -157,7 +168,7 @@ section{
 
 .member-container{
     position: relative;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .member-details{
@@ -165,6 +176,16 @@ section{
     color: rgb(255, 255, 255);
     bottom: 0px;
     left: 2px;
+    margin-left: 8px;
+}
+
+.member-details span{
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.member-details a .iconos{
+    padding: 0 5px;
 }
 
 
