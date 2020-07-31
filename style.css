@@ -148,6 +148,13 @@ a .btnicon{
     transform: scale(1.2);
 }
 
+.member-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0px;
+    border-radius: 2px;
+}
+
 .member-container img{
     width: 420px;
     height: 280px;
