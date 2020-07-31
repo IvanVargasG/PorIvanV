@@ -159,6 +159,12 @@ a .btnicon{
     object-fit: cover;
 }
 
+.member-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 .portfolio-details{
     position: absolute;
     bottom: 25px;
