@@ -153,6 +153,7 @@ a .btnicon{
     height: 280px;
     padding: 10px;
     border: 1px solid lightsteelblue;
+    object-fit: cover;
 }
 
 .portfolio-details{
