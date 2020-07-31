@@ -135,12 +135,23 @@ a .btnicon{
     -moz-transition: all 0.8s;
     -webkit-transition: all 0.8s;
     transition: all 0.8s;
+    width: 750px;
+    height: 440px;
+    padding: 10px;
+    border: 2px solid lightsteelblue;
 }
 
 .portfolio-container:hover img{
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+}
+
+.member-container img{
+    width: 420px;
+    height: 280px;
+    padding: 10px;
+    border: 1px solid lightsteelblue;
 }
 
 .portfolio-details{
