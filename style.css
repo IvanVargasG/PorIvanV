@@ -136,9 +136,10 @@ a .btnicon{
     -webkit-transition: all 0.8s;
     transition: all 0.8s;
     width: 750px;
-    height: 440px;
+    height: 400px;
     padding: 10px;
     border: 2px solid lightsteelblue;
+    object-fit: cover;
 }
 
 .portfolio-container:hover img{
