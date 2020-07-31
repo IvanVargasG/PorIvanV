@@ -149,20 +149,11 @@ a .btnicon{
 }
 
 .member-container img{
-    -moz-transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
     width: 420px;
     height: 280px;
     padding: 10px;
     border: 1px solid lightsteelblue;
     object-fit: cover;
-}
-
-.member-container:hover img{
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
 }
 
 .portfolio-details{
