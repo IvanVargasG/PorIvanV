@@ -236,6 +236,19 @@ a .btnicon{
     border: 2px solid black;
 }
 
+.plans h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.plans span{
+    font-size: 20px;
+}
+
+.plans ul {
+    list-style-type:square ;
+}
+
 
 @media (max-width: 575.98px) {
     h1{
