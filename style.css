@@ -8,6 +8,11 @@ h1{
     line-height: 80px;
 }
 
+h5{
+    margin-bottom: 0px;
+    margin-left: 12px;
+}
+
 h2{
     font-size: 48px;
     margin-bottom: 30px;
@@ -72,6 +77,12 @@ a .btnicon{
     font-size: 20px;
     margin-left: 5px;
     color:black;
+}
+
+.btn-dark{
+    background-color: whitesmoke;
+    border: 2px solid rgb(184, 176, 184);
+    color: black;
 }
 
 .navbar{
@@ -194,11 +205,31 @@ a .btnicon{
 
 .member-details span{
     font-size: 15px;
-    margin-left: 8px;
+    margin-left: 15px;
 }
 
 .member-details a .iconos{
     padding: 0 5px;
+}
+
+.pricing-container{
+    margin: 15 px 0;
+}
+
+.plans{
+    padding: 50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+}
+
+.plans-light{
+    background-color: rgb(244, 247, 247);
+    border: 2px solid black;
+}
+
+.plans-dark{
+    background-color: rgb(223, 221, 221);
+    border: 2px solid black;
 }
 
 
