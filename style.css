@@ -217,13 +217,13 @@ a .btnicon{
 }
 
 .pricing-container{
-    margin: 15 px 0;
+    margin: 8px 0;
 }
 
 .plans{
     padding: 50px 80px;
     border-radius: 2px;
-    min-width: 450px;
+    min-width: 300px;
 }
 
 .plans-light{
