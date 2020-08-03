@@ -290,7 +290,7 @@ a .btnicon{
 }
 
 .carousel-container{
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -311,7 +311,7 @@ a .btnicon{
 }
 
 .testimonial-user{
-    max-width: 240px;
+    max-width: 280px;
     margin: 0 auto;
     text-align: left;
 }
