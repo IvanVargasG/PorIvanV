@@ -249,6 +249,24 @@ a .btnicon{
     list-style-type:square ;
 }
 
+.carousel{
+    min-height: 24px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.carousel span{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.iconestrella{
+    color: gold;
+    font-size: 20px;
+}
+
 
 @media (max-width: 575.98px) {
     h1{
