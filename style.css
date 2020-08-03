@@ -183,11 +183,15 @@ a .btnicon{
 }
 
 .portfolio-details a h2, .portfolio-details a p{
-    color: white;
+    color: rgb(175, 175, 175);
 }
 
 .text-dark{
     color: black;
+}
+
+.divider{
+    border-bottom: 4px solid snow;
 }
 
 .text-center p{
@@ -262,9 +266,59 @@ a .btnicon{
     color: black;
 }
 
+.carousel-indicatiors li{
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    color: white;
+    opacity: 1;
+    width: 5%;
+}
+
+.carousel-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.control-button{
+    background-color: black;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
 .iconestrella{
     color: rgb(255, 230, 0);
     font-size: 20px;
+}
+
+.testimonial-user{
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.testimonial-user h6{
+    margin-bottom: 0px;
+}
+
+.testimonial-user span{
+    font-size: 12px;
+}
+
+.testimonial-user img{
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center;
 }
 
 
